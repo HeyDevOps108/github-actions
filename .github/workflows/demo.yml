@@ -33,4 +33,4 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo Hello vedant here
-          echo test, and deploy your project.
+          echo Radha radha
