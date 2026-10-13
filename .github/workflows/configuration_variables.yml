@@ -1,0 +1,14 @@
+name: configuration variables
+
+on:
+  push:
+    branches: ["variables"]
+  workflow_dispatch
+
+jobs:
+  configuration_variables:
+    runs-on: ubuntu-latest
+    steps:
+      - name: config variable
+        run: echo ${{ vars.MYPROJECT }}
+
