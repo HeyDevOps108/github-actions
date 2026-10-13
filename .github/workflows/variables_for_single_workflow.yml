@@ -32,9 +32,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      
-        env:
-          MY_VAR: "Teliolabs"
 
       - name: step level variables
+        env:
+          MY_VAR: "Teliolabs"          
         run: echo "$MY_VAR"
